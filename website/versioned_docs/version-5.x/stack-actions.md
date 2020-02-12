@@ -19,7 +19,7 @@ The `replace` action allows to replace a route in the navigation state. It takes
 <samp id="stack-actions">
 
 ```js
-import { StackActions } from '@react-navigation/native';
+import { StackActions } from '@react-navigation/routers';
 
 navigation.dispatch(
   StackActions.replace('Profile', {
